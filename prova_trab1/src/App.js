@@ -65,17 +65,17 @@ function App() {
                 alt="ninja_user"/>
         </div>
         <div class="content">
-            <h3 class="name">Usuário de Trabalho</h3>
-            <p class="username">@usuario_TI</p>
+            <h3 class="name">Amilto Junior Smaniotto</h3>
+            <p class="username">@Amilto.J</p>
 
             <div class="links">
-                <a class="facebook" href="https://www.facebook.com/" target="_blank" title="GFG_facebook">
+                <a class="facebook" href="https://www.facebook.com/amiltojunior.smaniotto.3" target="_blank" title="GFG_facebook">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
+                <a class="git" href="https://github.com/AmiltoJ" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
+                <a class="insta" href="https://www.instagram.com/amilto._.exe" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>
             </div>

@@ -25,8 +25,7 @@ function App() {
                 <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="linkedin" href="https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank"/>
-                    <i class="fab fa-linkedin"></i>
+                
                 <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>
@@ -52,8 +51,7 @@ function App() {
                 <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="linkedin" href="https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank"/>
-                    <i class="fab fa-linkedin"></i>
+                
                 <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>
@@ -79,8 +77,7 @@ function App() {
                 <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="linkedin" href="https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank"/>
-                    <i class="fab fa-linkedin"></i>
+                
                 <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>
@@ -106,8 +103,7 @@ function App() {
                 <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="linkedin" href="https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank"/>
-                    <i class="fab fa-linkedin"></i>
+                
                 <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>
@@ -133,8 +129,7 @@ function App() {
                 <a class="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
                     <i class="fab fa-github-square"></i>
                 </a>
-                <a class="linkedin" href="https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank"/>
-                    <i class="fab fa-linkedin"></i>
+                
                 <a class="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
                     <i class="fab fa-instagram-square"></i>
                 </a>

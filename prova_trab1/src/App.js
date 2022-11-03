@@ -118,18 +118,18 @@ function App() {
             <img src={logo5}
                 alt="ninja_user"/>
         </div>
-        <div class="content">
-            <h3 class="name">Usuário de Trabalho</h3>
-            <p class="username">@usuario_TI</p>
+        <div className="content">
+            <h3 className="name">Lucas Eduardo Faleiro</h3>
+            <p className="username">@luxca.img</p>
 
             <div className="links">
                 <a className="facebook" href="https://www.facebook.com/" target="_blank" title="GFG_facebook">
                     <i className="fab fa-facebook"></i>
                 </a>
-                <a className="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
+                <a className="git" href="https://github.com/LuxcaBR" title="TIuser_github" target="_blank">
                     <i className="fab fa-github-square"></i>
                 </a>
-                <a className="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
+                <a className="insta" href="https://www.instagram.com/luxca.img/" target="_blank" title="GFG_instagram">
                     <i className="fab fa-instagram-square"></i>
                 </a>
             </div>

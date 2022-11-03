@@ -1,4 +1,8 @@
-import logo from './joao.jpeg'
+import logo1 from './img/Joao.png'
+import logo2 from './img/William.jpg'
+import logo3 from './img/Amilto.jpg'
+import logo4 from './img/Thomas.png'
+import logo5 from './img/Faleiro.jpg'
 import './App.css';
 
 function App() {
@@ -8,10 +12,10 @@ function App() {
     <div className="title-container">
         <h2 className="text-exp">Projeto de Programação Web II</h2>
     </div>
-    <section classNameName="card-container">
+    <section className="card-container">
     <div className="container">
         <div className="user-image">
-            <img src={logo}
+            <img src={logo1}
                 alt="ninja_user"/>
         </div>
         <div className="content">
@@ -36,7 +40,7 @@ function App() {
     </div>
     <div className="container">
         <div className="user-image">
-            <img src="https://img.freepik.com/premium-vector/ninja-samurai-warrior-drawing-art-sketch_655523-19.jpg?w=2000"
+            <img src={logo2}
                 alt="ninja_user"/>
         </div>
         <div className="content">
@@ -61,7 +65,7 @@ function App() {
     </div>
     <div className="container">
         <div className="user-image">
-            <img src="https://img.freepik.com/premium-vector/ninja-samurai-warrior-drawing-art-sketch_655523-19.jpg?w=2000"
+            <img src={logo3}
                 alt="ninja_user"/>
         </div>
         <div className="content">
@@ -86,7 +90,7 @@ function App() {
     </div>
     <div className="container">
         <div className="user-image">
-            <img src="https://img.freepik.com/premium-vector/ninja-samurai-warrior-drawing-art-sketch_655523-19.jpg?w=2000"
+            <img src={logo4}
                 alt="ninja_user"/>
         </div>
         <div className="content">
@@ -109,14 +113,14 @@ function App() {
 
         </div>
     </div>
-    <div className="container">
-        <div className="user-image">
-            <img src="https://img.freepik.com/premium-vector/ninja-samurai-warrior-drawing-art-sketch_655523-19.jpg?w=2000"
+    <div class="container">
+        <div class="user-image">
+            <img src={logo5}
                 alt="ninja_user"/>
         </div>
-        <div className="content">
-            <h3 className="name">Usuário de Trabalho</h3>
-            <p className="username">@usuario_TI</p>
+        <div class="content">
+            <h3 class="name">Usuário de Trabalho</h3>
+            <p class="username">@usuario_TI</p>
 
             <div className="links">
                 <a className="facebook" href="https://www.facebook.com/" target="_blank" title="GFG_facebook">

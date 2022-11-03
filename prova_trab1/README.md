@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+TRABALHO FINAL - 80 PTs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Orientações para o trabalho
 
-In the project directory, you can run:
+-- Ambas atividades devem ser feitas com react, nestjs e banco de dados postgre sql.
 
-### `npm start`
+-- o projeto deve estar em um repositório git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-- os arquivos do banco de dados também devem estar junto ao repositório
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-- a atividade 1 é obrigatória para todos os grupos; (20 pontos)
 
-### `npm test`
+-- as atividades 2 – 5 deve ser escolhida uma pelo grupo; (60 pontos)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-- o grupo pode ter de 1 à 5 integrantes
 
-### `npm run build`
+-- entrega final no dia 01/12/2022
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-- será avaliado a o andamento do trabalho (histórico de commits no github)  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.   Criar um projeto react com um componente que tenha nome completo e a foto de cada um dos integrantes. Além disso a descrição da atividade que será desenvolvida pelo grupo. (apenas o projeto react)
 
-### `npm run eject`
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.   Crie um programa para ajudar o amigo marombeiro, deve ter uma tela para cadastrar o exercício (nome do exercício, quantidade de series e repetições) e uma opção para marcar qual ele já concluiu.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Criar uma página para controlar uma lista de compras. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Consiste em um campo para adicionar itens na lista.
+com a possibilidade de editar, excluir 
+marcar que já pegou o item. 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Criar uma página para controlar a lista de vídeos do youtube para estudar. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Consiste no cadastro de um vídeo do youtube (link) e uma descrição. 
+Pode ser editado o link do vídeo e a descrição
+pode ser excluído.
 
-### Code Splitting
+5. Criar uma página para controlar uma lista de produtos vendidos por um bar, como por exemplo: refri, cerveja, pizza, porção de fritas. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+o produto tem um nome e preço e imagem
+o produto pode ser editado e excluído.

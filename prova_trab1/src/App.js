@@ -37,11 +37,10 @@ function App() {
     </div>
     <div class="container">
         <div class="user-image">
-            <img src="https://img.freepik.com/premium-vector/ninja-samurai-warrior-drawing-art-sketch_655523-19.jpg?w=2000"
-                alt="ninja_user"/>
+            <img src= "prova_trab1\img\William.jpg" alt="TI_William"/>
         </div>
         <div class="content">
-            <h3 class="name">Usuário de Trabalho</h3>
+            <h3 class="name">William G. Schreiner</h3>
             <p class="username">@usuario_TI</p>
 
             <div class="links">

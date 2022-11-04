@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  width: 15em;
+  width: 20em;
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   border-radius: 1em;
@@ -26,18 +26,18 @@ body {
   font-size: 1em;
   box-shadow: 0.2em 0.2em 0.2em #d2ff00;
   margin-left: 25px;
-  max-width: 15em;
-  height: 17.5em;
-  max-height: 17.5em;
-  min-height: 17.5em;
-  min-width: 15em;
+  max-width: 20em;
+  height: 23.5em;
+  max-height: 23.5em;
+  min-height: 23.5em;
+  min-width: 20em;
 }
 
 .user-image img{
-  width: 5em;
-  height: 5em;
+  width: 10em;
+  height: 10em;
   border-radius: 50%;
-  box-shadow: 0 0.6em 0.8em;
+  box-shadow: 0 0.2em 2em;
   object-fit: cover;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .name{
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 

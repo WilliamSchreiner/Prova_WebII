@@ -139,6 +139,11 @@ function App() {
         </div>
     </div>
 </section>
+    <div className='text-title'>
+        <h2 className='title-exp'>
+            Atividade selecionada pelo grupo : 2
+        </h2>
+    </div>
     <div className="text-container">
         <h3 className="text-exp">Crie um programa para ajudar o amigo marombeiro, 
             deve ter uma tela para cadastrar o exercício 

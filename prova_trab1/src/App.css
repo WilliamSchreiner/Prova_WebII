@@ -139,3 +139,23 @@ a:last-child{
   box-shadow: 0.05em 0.05em 0.05em #d2ff00;
 }
 
+.text-title {
+  background-color: none;
+  height: 50px;
+  border-radius: 8px;
+  width: 500px;
+  border: 1px solid #d2ff00;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-exp{
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+

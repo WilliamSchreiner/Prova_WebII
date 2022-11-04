@@ -113,8 +113,8 @@ function App() {
 
         </div>
     </div>
-    <div class="container">
-        <div class="user-image">
+    <div className="container">
+        <div className="user-image">
             <img src={logo5}
                 alt="ninja_user"/>
         </div>

@@ -19,7 +19,7 @@ function App() {
                 alt="ninja_user"/>
         </div>
         <div className="content">
-            <h3 className="name">João Pedro Marques Ferreira</h3>
+            <h3 className="name">João Pedro Marques</h3>
             <p className="username">@jpferreira</p>
 
             <div className="links">
@@ -94,7 +94,7 @@ function App() {
                 alt="ninja_user"/>
         </div>
         <div className="content">
-            <h3 className="name">Thomas Eduardo Z. de Almeida</h3>
+            <h3 className="name">THOMAS EDUARDO Z. DE ALMEIDA</h3>
             <p className="username">@Thomas.eal</p>
 
             <div className="links">
@@ -109,7 +109,7 @@ function App() {
                 </a>
             </div>
             
-                <p className="details"> Corinthians Grande </p>
+                <p className="details"> Corinthians Grande</p>
 
         </div>
     </div>

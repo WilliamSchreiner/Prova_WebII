@@ -1,4 +1,4 @@
-import logo1 from './img/Joao.png'
+import logo1 from './img/Joao.jpeg'
 import logo2 from './img/William.jpg'
 import logo3 from './img/Amilto.jpg'
 import logo4 from './img/Thomas.png'
@@ -19,7 +19,7 @@ function App() {
                 alt="ninja_user"/>
         </div>
         <div className="content">
-            <h3 className="name">João Pedro</h3>
+            <h3 className="name">João Pedro Marques Ferreira</h3>
             <p className="username">@jpferreira</p>
 
             <div className="links">
@@ -34,7 +34,7 @@ function App() {
                 </a>
             </div>
             
-                <p className="details"> Um teste para o trabalho de TI</p>
+                <p className="details">Quem será?</p>
 
         </div>
     </div>
@@ -44,22 +44,22 @@ function App() {
                 alt="ninja_user"/>
         </div>
         <div className="content">
-            <h3 className="name">Usuário de Trabalho</h3>
-            <p className="username">@usuario_TI</p>
+            <h3 className="name">William Gabriel Schreiner</h3>
+            <p className="username">@williamg.sch</p>
 
             <div className="links">
-                <a className="facebook" href="https://www.facebook.com/" target="_blank" title="GFG_facebook">
+                <a className="facebook" href="https://www.facebook.com/willian.schreiner.98" target="_blank" title="GFG_facebook">
                     <i className="fab fa-facebook"></i>
                 </a>
-                <a className="git" href="https://github.com/Ferreira2912" title="TIuser_github" target="_blank">
+                <a className="git" href="https://github.com/WilliamSchreiner" title="TIuser_github" target="_blank">
                     <i className="fab fa-github-square"></i>
                 </a>
-                <a className="insta" href="https://www.instagram.com/" target="_blank" title="GFG_instagram">
+                <a className="insta" href="https://www.instagram.com/@william.gab.sch" target="_blank" title="GFG_instagram">
                     <i className="fab fa-instagram-square"></i>
                 </a>
             </div>
             
-                <p className="details"> Um teste para o trabalho de TI</p>
+                <p className="details">Quero dormi...</p>
 
         </div>
     </div>
@@ -84,7 +84,7 @@ function App() {
                 </a>
             </div>
             
-                <p className="details"> Um teste para o trabalho de TI</p>
+                <p className="details">Tô Casado Tropa</p>
 
         </div>
     </div>

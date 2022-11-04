@@ -134,7 +134,7 @@ function App() {
                 </a>
             </div>
             
-                <p className="details"> Um teste para o trabalho de TI</p>
+                <p className="details"> Segue lá</p>
 
         </div>
     </div>

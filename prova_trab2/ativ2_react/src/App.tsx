@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Home } from './components/home/Home' // import para Home
+import { ExercicioLista } from './components/exercicio/ExercicioLista' // import para lista
+import { ExercicioCadastro } from './components/exercicio/ExercicioCadastro' // import para Home
+
+import { Link, Route, Routes } from 'react-router-dom'; // import para index das Route e Routes
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1> Bem vindo !!</h1>
+
+    <ul>
+      <li> <Link to={'/'}>Home</Link></li>
+      <li> <Link to={'/exercicio'}>Exercicio</Link></li>
+    </ul>
+
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/exercicio" element={< ExercicioLista />} />
+        <Route path="/exercicio/cadastro" element={< ExercicioCadastro />} />
+        <Route path="/exercicio/cadastro/:id" element={< ExercicioCadastro />} />
+    </Routes>
+
+    </>
   );
 }
 
-export default App;
+export default App; // forma de exportar as funçoes ex: App

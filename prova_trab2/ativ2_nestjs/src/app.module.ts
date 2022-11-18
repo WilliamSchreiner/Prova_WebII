@@ -3,8 +3,22 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'postgres',
+      host: 'localhost',
+      port: 5432,
+      username: 'postgres',
+      password: 'senha',
+      database: 'exercicio',
+      entities: [
+        Exercicio // entidades/classes
+      ],
+      synchronize: false
+    }),
+    TypeOrmModule.forFeature([Exercicio])
+  ],
+  controllers: [AppController, tarefaController],
   providers: [AppService],
 })
 export class AppModule {}

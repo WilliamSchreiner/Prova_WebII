@@ -13,8 +13,6 @@ export function ExercicioLista() {
 <>
         <h1>Pagina Avatar Lista</h1>
 
-    <Link to={'/exercicio/cadastro'}> Cadastrar seu exercicio: </Link>
-
         <ul>
             {exercicioLista?.map(exercicio => (
                 <li key={exercicio.id}>
@@ -25,7 +23,9 @@ export function ExercicioLista() {
                     <Link to={'/exercicio/' + exercicio.id}> [Excluir] </Link>
                 </li>
 ))}
-        </ul>
+        </ul> 
+        
+        <Link to={'/exercicio/cadastro'}> Cadastrar um exercicio </Link>
 </>
     )
 }

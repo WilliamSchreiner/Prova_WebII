@@ -36,9 +36,7 @@ setExercicio({...exercicio, [name]: value})
 
     return(
         <>
-        <Link to={'/exercicio'}> Seus exercicio: </Link>
-        <Link to={'/'}> Home </Link>
-        
+          
         <h1>Cadastre seus exercicio:</h1>
 
     <div>
@@ -55,7 +53,9 @@ setExercicio({...exercicio, [name]: value})
 
             <button > Salvar </button>
 
-            </form>
+            </form> 
+            
+            <Link to={'/exercicio'}> Seus exercicio: </Link>  
         </div> 
 
         </>

@@ -18,7 +18,7 @@ import { AppService } from './app.service';
     }),
     TypeOrmModule.forFeature([Exercicio])
   ],
-  controllers: [AppController, tarefaController],
+  controllers: [AppController, exercicioController],
   providers: [AppService],
 })
 export class AppModule {}

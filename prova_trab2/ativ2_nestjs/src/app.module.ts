@@ -1,6 +1,9 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { Exercicio } from './exercicio.entity';
+import { exercicioController } from './exercicio.controller';
 
 @Module({
   imports: [

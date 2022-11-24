@@ -13,7 +13,7 @@ export function ExercicioLista() {
 <>
         <h1>Pagina Avatar Lista</h1>
 
-    <Link to={'/avatar/cadastro'}> Cadastrar seu exercicio: </Link>
+    <Link to={'/exercicio/cadastro'}> Cadastrar seu exercicio: </Link>
 
         <ul>
             {exercicioLista?.map(exercicio => (

@@ -23,17 +23,17 @@ export class exercicioController {
                
     }
 
-    @Get("/exercicio/cadastro/:codigo")
+    @Get("/exercicio/cadastro/:id")
     async buscarPorCodigo(@Param() parametro): Promise<Exercicio> {
         // @param é o objeto como algum parametro, por meio disso pode requisitar informaçoes no final da URL.  Ex: localhost:3100/tarefa/12  12=codigo
-        console.log(parametro.codigo); //pega o :codigo da url
-        return await this.exercicioService.findById(parametro.codigo);
+        console.log(parametro.id); //pega o :codigo da url
+        return await this.exercicioService.findById(parametro.id);
     }
 
-    @Delete("/exercicio/cadastro/:codigo")
+    @Delete("/exercicio/:id")
     async excluirExercicio(@Param() parametro){
 
-        await this.exercicioService.excluir(parametro.codigo);
+        await this.exercicioService.excluir(parametro.id);
 
         return "excluido"
     }

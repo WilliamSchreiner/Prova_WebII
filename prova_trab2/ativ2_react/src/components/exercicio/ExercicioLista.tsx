@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { Exercicio, ExercicioService } from "./ExercicioService";
 
 export function ExercicioLista() {
-    const [exercicioList , setExercicioList] = useState<Exercicio[]>();
+    const [exercicioLista , setExercicioLista] = useState<Exercicio[]>();
 
     useEffect(() => {
-        setExercicioList(ExercicioService.list)
+        setExercicioLista(ExercicioService.list)
     }, []);
 
     return(
@@ -16,12 +16,13 @@ export function ExercicioLista() {
     <Link to={'/avatar/cadastro'}> Cadastrar seu exercicio: </Link>
 
         <ul>
-            {exercicioList?.map(exercicio => (
+            {exercicioLista?.map(exercicio => (
                 <li key={exercicio.id}>
                     {exercicio.nome}
                     {exercicio.serie}
                     {exercicio.repeticao}
                     <Link to={'/exercicio/cadastro/' + exercicio.id}> [editar] </Link>
+                    <Link to={'/exercicio/' + exercicio.id}> [Excluir] </Link>
                 </li>
 ))}
         </ul>

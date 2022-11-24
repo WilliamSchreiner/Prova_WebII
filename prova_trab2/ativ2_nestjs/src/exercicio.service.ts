@@ -15,15 +15,15 @@ export class ExercicioService {
         return this.exercicioRepository.find();
     }
 
-    public findById(codigo: number): Promise<Exercicio> {
-        return this.exercicioRepository.findOneBy({ codigo });
+    public findById(id: number): Promise<Exercicio> {
+        return this.exercicioRepository.findOneBy({ id });
     }
 
     public salvar(exercicio: Exercicio): Promise<Exercicio> {
         return this.exercicioRepository.save(exercicio);
     }
 
-    public async excluir(codigo: number): Promise<void> {
-        await this.exercicioRepository.delete(codigo);
+    public async excluir(id: number): Promise<void> {
+        await this.exercicioRepository.delete(id);
     }
 }

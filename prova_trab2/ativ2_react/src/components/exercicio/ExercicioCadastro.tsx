@@ -55,7 +55,9 @@ setExercicio({...exercicio, [name]: value})
         </div>
             <button className="btn btn-success"> Salvar </button>
 
-            </form>
+            </form> 
+            
+            <Link to={'/exercicio'}> Seus exercicio: </Link>  
         </div> 
 
         </>

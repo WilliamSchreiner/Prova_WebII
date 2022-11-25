@@ -11,13 +11,15 @@ export function ExercicioLista() {
 
     return(
 <>
-        <h1>Pagina Avatar Lista</h1>
+        <h1 className="h1_lista">Pagina Avatar Lista</h1>
+        <div className="link_container">
+    <Link to={'/exercicio/cadastro'} className='link_cadastro' > Cadastrar seu exercicio</Link>
+        </div>
 
-    <Link to={'/exercicio/cadastro'}> Cadastrar seu exercicio: </Link>
-
-        <ul>
+        <div className="container-lista">
+        <ul className="coluna">
             {exercicioLista?.map(exercicio => (
-                <li key={exercicio.id}>
+                <li key={exercicio.id} className='linha'>
                     {exercicio.nome}
                     {exercicio.serie}
                     {exercicio.repeticao}
@@ -26,6 +28,8 @@ export function ExercicioLista() {
                 </li>
 ))}
         </ul>
+        </div>
+        
 </>
     )
 }

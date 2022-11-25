@@ -36,24 +36,24 @@ setExercicio({...exercicio, [name]: value})
 
     return(
         <>
-        <Link to={'/exercicio'}> Seus exercicio: </Link>
-        <Link to={'/'}> Home </Link>
         
-        <h1>Cadastre seus exercicio:</h1>
+        <h1 className="h1_exercicio">Cadastre seu exercicio:</h1>
 
     <div>
             <form onSubmit={salvar}>
-
-            <label> Exercicios: </label>
-            <input type='text' name='nome' value={exercicio.nome} onChange={valueChange} />
-
-            <label> Serie: </label>
-            <input type='text' name='serie' value={exercicio.serie} onChange={valueChange}/>
-
-            <label> Repetições: </label>
-            <input type='text' name='repeticao' value={exercicio.repeticao} onChange={valueChange}/>
-
-            <button > Salvar </button>
+        <div className="mb-3">
+            <label className="form-label"> Exercicios: </label>
+            <input type='text' className="form-control" name='nome' value={exercicio.nome} onChange={valueChange} />
+        </div>
+        <div className="mb-3">
+            <label className="form-label"> Serie: </label>
+            <input type='text' className="form-control" name='serie' value={exercicio.serie} onChange={valueChange}/>
+        </div>
+        <div className="mb-3">
+            <label className="form-label"> Repetições: </label>
+            <input type='text' className="form-control" name='repeticao' value={exercicio.repeticao} onChange={valueChange}/>
+        </div>
+            <button className="btn btn-success"> Salvar </button>
 
             </form>
         </div> 

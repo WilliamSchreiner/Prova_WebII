@@ -2,7 +2,7 @@ export function Home() {
     return(
        <>
 
-<h1> Pagina de Home </h1>
+<h1 className="h1_home"> Pagina de Home </h1>
 
        </>
     )

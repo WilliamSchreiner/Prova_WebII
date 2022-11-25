@@ -9,12 +9,19 @@ import { Link, Route, Routes } from 'react-router-dom'; // import para index das
 function App() {
   return (
     <>
-    <h1> Bem vindo !!</h1>
+    <div className='container-page'>
+    <nav className="navbar navbar-expand-lg bg-light">
+    <div className="container-fluid">
+    <h1 className='h1_title'>TraceFit</h1>
 
-    <ul>
-      <li> <Link to={'/'}>Home</Link></li>
-      <li> <Link to={'/exercicio'}>Exercicio</Link></li>
+    <div className="collapse navbar-collapse" id="navbarNav">
+
+    <ul className="navbar-nav">
+      <li className="nav-item"> <a className="nav-link active"> <Link to={'/'} className='link'>Home</Link> </a></li>
+      <li className="nav-item"> <a className="nav-link active"> <Link to={'/exercicio'} className='link'>Exercicio</Link> </a></li>
     </ul>
+    </div>
+    </div> </nav>
 
     <Routes>
         <Route path="/" element={<Home />} />
@@ -23,8 +30,11 @@ function App() {
         <Route path="/exercicio/cadastro/:id" element={< ExercicioCadastro />} />
         <Route path="/exercicio/:id" element={< ExercicioCadastro />} />
     </Routes>
-
+   
+    
+    </div>
     </>
+    
   );
 }
 

@@ -23,8 +23,8 @@ export function ExercicioLista() {
                     {exercicio.nome}
                     {exercicio.serie}
                     {exercicio.repeticao}
-                    <Link to={'/exercicio/cadastro/' + exercicio.id}> [editar] </Link>
-                    <Link to={'/exercicio/' + exercicio.id}> [Excluir] </Link>
+                    <Link to={'/exercicio/cadastro/' + exercicio.id} className='but_editar'>Editar</Link>
+                    <Link to={'/exercicio/' + exercicio.id} className='but_excluir'>Excluir</Link>
                 </li>
 ))}
         </ul>

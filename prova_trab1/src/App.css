@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 50vh;
   background-color: #1d1d1d;
 }
 
@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 50vh;
 }
 
 .container {
@@ -26,16 +26,16 @@ body {
   font-size: 1em;
   box-shadow: 0.2em 0.2em 0.2em #d2ff00;
   margin-left: 25px;
-  max-width: 20em;
-  height: 23.5em;
-  max-height: 23.5em;
-  min-height: 23.5em;
-  min-width: 20em;
+  max-width: 14em;
+  height: 18.5em;
+  max-height: 18.5em;
+  min-height: 18.5em;
+  min-width: 14em;
 }
 
 .user-image img{
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
   border-radius: 50%;
   box-shadow: 0 0.2em 2em;
   object-fit: cover;
@@ -43,11 +43,11 @@ body {
 
 .content{
   color: #565656;
-  padding: 1.2em;
+  padding: 1.2em; 
 }
 
 .name{
-  font-size: 1.5em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -121,6 +121,7 @@ a:last-child{
   text-transform: uppercase;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 30px;
+  margin-bottom: 15px;
 }
 
 .title-container {
@@ -150,6 +151,7 @@ a:last-child{
   margin-bottom: 15px;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .title-exp{

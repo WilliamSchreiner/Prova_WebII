@@ -70,21 +70,24 @@ export function TarefaCadastro(){
 
     return(
         <>
+
+        <h1 className="h1_exercicio">Cadastrar Exercício:</h1>
+
         <form onSubmit={salvar}>
-            <div>
-            <label>Exercicio:</label>
-            <input type="text" value={nome} onChange={(event) => setNome(event.target.value)}/>
+            <div className="mb-3">
+            <label className="form-label">Exercicio:</label>
+            <input type="text" className="form-control" value={nome} onChange={(event) => setNome(event.target.value)}/>
         </div>
-        <div>
-            <label>Series:</label>
-            <input type="text" value={serie} onChange={(event) => setSerie(event.target.value)}/>
+        <div className="mb-3">
+            <label className="form-label">Series:</label>
+            <input type="text" className="form-control" value={serie} onChange={(event) => setSerie(event.target.value)}/>
         </div>
-        <div>
-            <label>Repetições:</label>
-            <input type="text" value={repeticao} onChange={(event) => setRepeticao(event.target.value)}/>
+        <div className="mb-3"> 
+            <label className="form-label">Repetições:</label>
+            <input type="text" className="form-control" value={repeticao} onChange={(event) => setRepeticao(event.target.value)}/>
         </div>
 
-        <button > Salvar </button>
+        <button className="btn btn-success"> Salvar </button>
         </form>
 
         </>

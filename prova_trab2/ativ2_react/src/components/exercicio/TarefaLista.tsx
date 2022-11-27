@@ -14,7 +14,7 @@ export function TarefaLista(){
       }, [])
     
 
-    function excluir(codigo) {
+    function excluir(codigo: any) {
         axios.delete("http://localhost:3100/tarefa/" + codigo).then((resultado) => {
         buscar()
         })
@@ -29,12 +29,18 @@ export function TarefaLista(){
 
     return(
         <>
-<div>
+
+      <h1 className="h1_table">Lista de Exercícios:</h1>
+
+
+     <div className="container">
         <table className="table">
 
           <thead>
             <tr>
-              <td> tarefa </td>
+              <td> Exercício </td>
+              <td> Série </td>
+              <td> Repetição </td>
             </tr>
           </thead>
           <tbody>
@@ -58,11 +64,9 @@ export function TarefaLista(){
           </tbody>
         </table>
       </div>
-
-
-
-
-    <Link to={'/tarefa/cadastro'} className='link'> Cadastrar um exercicio </Link>
-        </>
+        <div className="link_container">
+          <Link to={'/tarefa/cadastro'} className='link_cadastro'> Cadastrar um exercicio </Link>
+        </div>
+      </>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Home } from './components/home/Home' // import para Home
-import { ExercicioLista } from './components/exercicio/ExercicioLista' // import para lista
-import { ExercicioCadastro } from './components/exercicio/ExercicioCadastro' // import para Home
+import { Link, Route, Routes } from 'react-router-dom'; // rotas e routes
 
-import { Link, Route, Routes } from 'react-router-dom'; // import para index das Route e Routes
+// import das functios 
+import { TarefaLista } from './components/exercicio/TarefaLista'; // import para a Lista
+import { Home } from './components/home/Home' // import para o Home
+import { TarefaCadastro } from './components/exercicio/TarefaCadastro';// import para o Cadastro
 
 function App() {
   return (
@@ -17,18 +18,17 @@ function App() {
     <div className="collapse navbar-collapse" id="navbarNav">
 
     <ul className="navbar-nav">
-      <li className="nav-item"> <a className="nav-link active"> <Link to={'/'} className='link'>Home</Link> </a></li>
-      <li className="nav-item"> <a className="nav-link active"> <Link to={'/exercicio'} className='link'>Exercicio</Link> </a></li>
+    <li className="nav-item"> <a className="nav-link active"> <Link to={'/'} className='link'> Home </Link> </a></li>
+    <li className="nav-item"> <a className="nav-link active"> <Link to={'/tarefa'} className='link'> Seus exercicio </Link> </a></li>
     </ul>
     </div>
-    </div> </nav>
+    </div> 
+    </nav>
 
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exercicio" element={< ExercicioLista />} />
-        <Route path="/exercicio/cadastro" element={< ExercicioCadastro />} />
-        <Route path="/exercicio/cadastro/:id" element={< ExercicioCadastro />} />
-        <Route path="/exercicio/:id" element={< ExercicioCadastro />} />
+        <Route path="/tarefa" element={<TarefaLista />} />
+        <Route path="/tarefa/cadastro" element={<TarefaCadastro />} /> 
     </Routes>
    
     

@@ -53,7 +53,7 @@ export function TarefaCadastro(){
 
     // funçoes
 
-    function editar() {
+    function editar(codigo: any) {
         axios.get("http://localhost:3100/tarefa/" + codigo).then((resultado) => {
           setCodigo(resultado.data.codigo);
           setNome(resultado.data.nome);

@@ -9,10 +9,10 @@ export class Tarefa {
     @Column({name: 'nome', type: 'varchar',length: '100'})
     nome?: string;
 
-    @Column({name: 'serie', type: 'number'})
+    @Column({name: 'serie', type: 'decimal'})
     serie?: number;
 
-    @Column({name: 'repeticao', type: 'number'})
+    @Column({name: 'repeticao', type: 'decimal'})
     repeticao?: number;
 
     @Column({name: 'feito', type: 'boolean'})

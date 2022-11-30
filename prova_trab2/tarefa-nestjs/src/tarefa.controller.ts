@@ -1,35 +1,35 @@
 import { Body, Controller, Delete, Get, Param, Put } from "@nestjs/common";
-import { TarefaService } from "./tarefa.service";
-import { Tarefa } from "./tarefa.entity";
+import { ExercicioService } from "./tarefa.service";
+import { Exercicio } from "./tarefa.entity";
 
 @Controller()
-export class tarefaController {
+export class ExercicioController {
 
     constructor(
-        private tarefaService: TarefaService
+        private exercicioService: ExercicioService
     ) {}
 
     @Get("/tarefa")
-       async listaTarefa(): Promise<Tarefa[]> {
-            return await this.tarefaService.findAll();
+       async listaTarefa(): Promise<Exercicio[]> {
+            return await this.exercicioService.findAll();
         }
     
     @Put("/tarefa")
     async salvarTarefa(@Body() tarefa) {
-        await this.tarefaService.salvar(tarefa);
+        await this.exercicioService.salvar(tarefa);
             return "ok";
                
     }
 
     @Get("/tarefa/:codigo")
-    async buscarPorCodigo(@Param() parametro): Promise<Tarefa> {
+    async buscarPorCodigo(@Param() parametro): Promise<Exercicio> {
         console.log(parametro.codigo); 
-        return await this.tarefaService.findById(parametro.codigo);
+        return await this.exercicioService.findById(parametro.codigo);
     }
 
     @Delete("/tarefa/:codigo")
     async excluirTarefa(@Param() parametro){
-        await this.tarefaService.excluir(parametro.codigo);
+        await this.exercicioService.excluir(parametro.codigo);
         return "excluido"
     }
 }

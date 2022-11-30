@@ -3,9 +3,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { tarefaController } from './tarefa.controller';
-import { Tarefa } from './tarefa.entity';
-import { TarefaService } from './tarefa.service';
+import {ExercicioController } from './tarefa.controller';
+import { Exercicio } from './tarefa.entity';
+import {ExercicioService } from './tarefa.service';
 
 @Module({
   imports: [
@@ -15,15 +15,15 @@ import { TarefaService } from './tarefa.service';
       port: 5432,
       username: 'postgres',
       password: 'senha',
-      database: 'exercicio',
+      database: 'tarefa',
       entities: [
-        Tarefa // entidades/classes
+        Exercicio // entidades/classes
       ],
       synchronize: true
     }),
-    TypeOrmModule.forFeature([Tarefa])
+    TypeOrmModule.forFeature([Exercicio])
   ],
-  controllers: [AppController, tarefaController],
-  providers: [AppService, TarefaService],
+  controllers: [AppController,ExercicioController],
+  providers: [AppService, ExercicioService],
 })
 export class AppModule {}

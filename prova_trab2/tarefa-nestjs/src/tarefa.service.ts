@@ -1,30 +1,30 @@
 import { Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Repository } from "typeorm";
-import { Tarefa } from "./tarefa.entity";
+import { Exercicio } from "./tarefa.entity";
 
 @Injectable()
-export class TarefaService {
+export class ExercicioService {
 
     constructor(
-        @InjectRepository(Tarefa)
-        private readonly tarefaRepository: Repository<Tarefa>,
+        @InjectRepository(Exercicio)
+        private readonly exercicioRepository: Repository<Exercicio>,
     ) { }
 
-    public findAll(): Promise<Tarefa[]> {
-        return this.tarefaRepository.find();
+    public findAll(): Promise<Exercicio[]> {
+        return this.exercicioRepository.find();
     }
 
-    public findById(codigo: number): Promise<Tarefa> {
-        return this.tarefaRepository.findOneBy({ codigo });
+    public findById(codigo: number): Promise<Exercicio> {
+        return this.exercicioRepository.findOneBy({ codigo });
     }
 
-    public salvar(tarefa: Tarefa): Promise<Tarefa> {
-        return this.tarefaRepository.save(tarefa);
+    public salvar(tarefa: Exercicio): Promise<Exercicio> {
+        return this.exercicioRepository.save(tarefa);
     }
 
     public async excluir(codigo: number): Promise<void> {
-        await this.tarefaRepository.delete(codigo);
+        await this.exercicioRepository.delete(codigo);
     }
 }
 

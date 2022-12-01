@@ -155,9 +155,9 @@
   margin-right: auto;
 }
 
- /* skills */
+ /* exerc */
 
- #skills-section {
+ #exerc-section {
   margin-top: 50px;
   background: rgb(15, 15, 15);
   width: 80%;
@@ -168,13 +168,13 @@
   color: antiquewhite;
 }
 
-#skills-section .container{
+#exerc-section .container{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.skills-container {
+.exerc-container {
   width: 550px;
   text-align: center;
   padding: 30px 25px;
@@ -185,12 +185,12 @@
   border-right: 1px solid rgb(15, 15, 15);
 }
 
-.skills-container h3 {
+.exerc-container h3 {
   color: #e5de00;
   font-size: 20px;
 }
 
-.skills-container img{
+.exerc-container img{
   height: 120px;
   padding: 30px;
   margin-bottom: 25px;
@@ -200,14 +200,14 @@
   border-bottom: 4px solid #e5de00;
 }
 
-.skills-container .subtitle {
+.exerc-container .subtitle {
   font-weight: bold;
   color: #e5de00;
   margin-top: 50px;
   margin-bottom: 15px;
 }
 
-.skills-container p {
+.exerc-container p {
   line-height: 25px;
 }
 

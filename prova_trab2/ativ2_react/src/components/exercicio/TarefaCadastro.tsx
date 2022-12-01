@@ -1,14 +1,18 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 export interface Tarefa {
         codigo?: string;
         nome: string;
         serie?: string;
         repeticao?: string;
+        feito?: boolean
     };
+
 export function TarefaCadastro(){
+
+    const {id} = useParams();
 
     const navegate = useNavigate();
 
@@ -23,8 +27,12 @@ export function TarefaCadastro(){
     
 
     useEffect(() => {
-        buscar();
-      }, [])
+        if (id) {
+        editar(id)
+
+buscar()
+        }
+    }, []);
 
     function salvar(event: any){
         event.preventDefault()

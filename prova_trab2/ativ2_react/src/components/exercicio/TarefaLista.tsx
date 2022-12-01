@@ -52,7 +52,7 @@ export function TarefaLista(){
                   <td>{tarefa.repeticao}</td>
 
                   <td>
-                    <button className="botaoEditar" onClick={() => navegate('./tarefa/:id')}>Editar</button>
+                    <button className="botaoEditar" onClick={() => navegate('/tarefa/cadastro/' + tarefa.codigo)}>Editar</button>
                   </td>
                   <td>
                     <button className="botaoExcluir" onClick={() => excluir(tarefa.codigo)}>Excluir</button>

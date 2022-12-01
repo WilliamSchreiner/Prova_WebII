@@ -12,11 +12,11 @@ export function TarefaCadastro(){
 
     const navegate = useNavigate();
 
-    const [codigo, setCodigo] = useState('');
+    const [codigo, setCodigo] = useState();
     const [nome, setNome] = useState('');
     const [serie, setSerie] = useState('');
     const [repeticao, setRepeticao] = useState('');
-    const [feito, setFeito] = useState('');
+    const [feito, setFeito] = useState(false);
 
     const [tarefaLista, setTarefaLista] = useState([]);
 

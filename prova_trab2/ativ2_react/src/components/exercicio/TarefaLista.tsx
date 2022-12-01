@@ -50,7 +50,9 @@ export function TarefaLista(){
                   <td>{tarefa.nome}</td>
                   <td>{tarefa.serie}</td>
                   <td>{tarefa.repeticao}</td>
-
+                  <td>
+                    <input type="checkbox" className="check_tarefa" />
+                  </td>
                   <td>
                     <button className="botaoEditar" onClick={() => navegate('/tarefa/cadastro/' + tarefa.codigo)}>Editar</button>
                   </td>

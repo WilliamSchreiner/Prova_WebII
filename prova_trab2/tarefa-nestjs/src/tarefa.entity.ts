@@ -16,5 +16,6 @@ export class Exercicio {
     repeticao?: string;
 
     @Column({name: 'feito', type: 'boolean'})
-    feito?: string;
+    feito?: boolean;
 }
+
